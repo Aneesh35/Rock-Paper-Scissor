@@ -12,6 +12,8 @@ reset.addEventListener('click',()=>{
      botscr = 0;
      bscr.innerText = `${botscr}`;
      status.innerText="PICK YOUR MOVE";
+     status.style.backgroundColor='black';
+     status.style.color='aqua';
 })
 choices.forEach((choice) => {
     choice.addEventListener('click', () => {
