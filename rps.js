@@ -14,6 +14,7 @@ reset.addEventListener('click',()=>{
      status.innerText="PICK YOUR MOVE";
      status.style.backgroundColor='black';
      status.style.color='aqua';
+
 })
 choices.forEach((choice) => {
     choice.addEventListener('click', () => {
